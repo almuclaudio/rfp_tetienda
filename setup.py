@@ -1,0 +1,19 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="tetienda",
+    version="0.1.0",
+    packages=find_packages(),
+    install_requires=[
+        'streamlit==1.32.0',
+        'pandas==2.2.1',
+        'numpy==1.26.4',
+        'plotly==5.18.0',
+        'openpyxl==3.1.2',
+        'python-dateutil==2.9.0',
+        'pytz==2024.1',
+        'tzdata==2024.1',
+        'et-xmlfile==2.0.0'
+    ],
+    python_requires='>=3.10',
+)
