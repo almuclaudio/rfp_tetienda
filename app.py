@@ -247,7 +247,7 @@ def main():
             st.stop()
         df = load_data(up)
     else:
-        df = load_data("sample_corporate_brand.csv")
+        df = load_data("sample_tetienda.csv")
 
     fdf, sla_sec = sidebar(df)
     kpis(fdf, sla_sec)
